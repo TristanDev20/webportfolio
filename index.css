@@ -100,7 +100,13 @@ nav>div>div>div>a{
 }
 
 
-/*sections*/
-@media (max-width: 414px){
-
-}
+/*media query for small devices*/
+/*@media (max-width: 414px){
+	#navbar{
+			
+	}
+	#landing{}
+	#projects{}
+	#tools{}
+	#contact{}
+}*/
