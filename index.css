@@ -1,0 +1,106 @@
+/*CSS Reset Rule*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Start of Navbar*/
+nav>div>div>div>a{
+	font-family: 'Heebo', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+
+	color: #000000;
+}
+
+#navbar{
+	background-color: #fff6f4;
+
+}
+/*End of Navbar*/
+
+
+/*Start of Landing*/
+/*picture*/
+#me{	
+	width: 260px;
+	height: 243px;
+
+}
+/*title*/
+#nm{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 60px;
+	color: #21243D;
+}
+
+#pstn{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 60px;
+	color: #21243D;	
+}
+
+/*p*/
+#shrtdsc{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #21243D;
+
+}
+
+
+/* Download Resume button*/
+#rsmbtn{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+	color: #FFFFFF;	
+	background: #FF6464;
+	border-color: white;
+}
+
+/*End of Landing*/
+
+
+/*Start of My Projects*/
+#mp{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 60px;
+	color: #21243D;
+}
+
+#projects{
+	background-color: #f3eed9;
+}
+
+#crds{
+	border-radius: 5%;
+	height: 700px;
+
+}
+/*End of My Projects*/
+
+
+/*Contacts*/
+#contact{
+	background-color: #ffbff9;
+}
+
+
+/*sections*/
+@media (max-width: 414px){
+ body
+}
