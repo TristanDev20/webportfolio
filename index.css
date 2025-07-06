@@ -99,14 +99,13 @@ nav>div>div>div>a{
 	background-color: #ffbff9;
 }
 
+/*Add Fade-In on Page Load*/
+body {
+  opacity: 0;
+  transition: opacity 0.8s ease-in;
+}
 
-/*media query for small devices*/
-/*@media (max-width: 414px){
-	#navbar{
-			
-	}
-	#landing{}
-	#projects{}
-	#tools{}
-	#contact{}
-}*/
+body.loaded {
+  opacity: 1;
+}
+
